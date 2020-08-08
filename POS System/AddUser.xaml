@@ -1,0 +1,37 @@
+﻿<Window x:Class="POS_System.AddUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POS_System"
+        mc:Ignorable="d"
+        Title="AddUser" Height="450" Width="800">
+    <Canvas>
+        <Canvas.Background>
+            <ImageBrush ImageSource="./img/bg.jpg" Opacity="0.1" />
+        </Canvas.Background>
+        <Canvas Height="324" Canvas.Left="10" Canvas.Top="85" Width="367">
+            <Label Content="Name" Height="30" Canvas.Left="10" Canvas.Top="52" Width="107"/>
+            <TextBox Height="30" Canvas.Left="156" TextWrapping="Wrap" Canvas.Top="52" Width="178"/>
+            <Label Content="User Name" Height="30" Canvas.Left="10" Canvas.Top="98" Width="107"/>
+            <TextBox Height="30" Canvas.Left="156" TextWrapping="Wrap" Canvas.Top="98" Width="178"/>
+            <Label Content="Password" Height="30" Canvas.Left="10" Canvas.Top="146" Width="107"/>
+            <TextBox Height="30" Canvas.Left="156" TextWrapping="Wrap" Canvas.Top="146" Width="178"/>
+            <Label Content="Confirm Pass" Height="30" Canvas.Left="10" Canvas.Top="190" Width="107"/>
+            <TextBox Height="30" Canvas.Left="156" TextWrapping="Wrap" Canvas.Top="190" Width="178"/>
+            <Label Content="Add User" Height="37" Canvas.Left="300" Width="218" FontSize="20" FontWeight="Bold"/>
+        </Canvas>
+        <Canvas Height="324" Canvas.Left="382" Canvas.Top="85" Width="367">
+            <Label Content="Position" Height="30" Canvas.Left="10" Canvas.Top="52" Width="107"/>
+            <TextBox Height="30" Canvas.Left="156" TextWrapping="Wrap" Canvas.Top="47" Width="178"/>
+            <Label Content="Gender" Height="30" Canvas.Left="10" Canvas.Top="98" Width="107"/>
+            <Button Content="ADD" Height="47" Canvas.Left="82" Canvas.Top="247" Width="208" Click="Button_Click"/>
+            <RadioButton Content="Male" Height="26" Canvas.Left="159" Canvas.Top="109" Width="98" ClickMode="Press" IsChecked="True"/>
+            <RadioButton Content="Female" Canvas.Left="262" Canvas.Top="111"/>
+        </Canvas>
+        <Rectangle Fill="#FF7E99F5" Height="69" Canvas.Left="10" Stroke="Black" Canvas.Top="10" Width="777"/>
+        <Image Height="90" Canvas.Left="678" Canvas.Top="20" Width="109" RenderTransformOrigin="0.72,0.149" Source="img/main.png"/>
+        <Label Content="POS System" Height="38" Canvas.Left="45" Canvas.Top="22" Width="221" FontSize="22" Foreground="#DDFBFBFB" FontWeight="Bold"/>
+
+    </Canvas>
+</Window>

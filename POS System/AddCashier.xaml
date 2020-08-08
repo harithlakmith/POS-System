@@ -1,0 +1,30 @@
+﻿<Window x:Class="POS_System.AddCashier"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POS_System"
+        mc:Ignorable="d"
+        Title="AddCashier" Height="450" Width="400">
+    <Canvas>
+        <Canvas.Background>
+            <ImageBrush ImageSource="./img/bg.jpg" Opacity="0.1" />
+        </Canvas.Background>
+        <Canvas Height="324" Canvas.Left="10" Canvas.Top="85" Width="367">
+            <Label Content="Name" Height="30" Canvas.Left="10" Canvas.Top="52" Width="107" FontSize="16"/>
+            <TextBox Height="30" Canvas.Left="156" TextWrapping="Wrap" Canvas.Top="52" Width="178" FontSize="16"/>
+            <Label Content="User Name" Height="30" Canvas.Left="10" Canvas.Top="98" Width="107" FontSize="16"/>
+            <TextBox Height="30" Canvas.Left="156" TextWrapping="Wrap" Canvas.Top="98" Width="178" FontSize="16"/>
+            <Label Content="Password" Height="30" Canvas.Left="10" Canvas.Top="146" Width="107" FontSize="16"/>
+            <TextBox Height="30" Canvas.Left="156" TextWrapping="Wrap" Canvas.Top="146" Width="178" FontSize="16"/>
+            <Label Content="Confirm Pass" Height="30" Canvas.Left="10" Canvas.Top="190" Width="124" FontSize="16"/>
+            <TextBox Height="30" Canvas.Left="156" TextWrapping="Wrap" Canvas.Top="190" Width="178" FontSize="16"/>
+            <Button Content="ADD" Height="47" Canvas.Left="82" Canvas.Top="247" Width="208" Click="Button_Click"/>
+            <Label Content="Add Cashier" Height="37" Canvas.Left="149" Width="218" FontSize="20" FontWeight="Bold"/>
+        </Canvas>
+        <Rectangle Fill="#FF7E99F5" Height="69" Canvas.Left="10" Stroke="Black" Canvas.Top="10" Width="369"/>
+        <Image Height="95" Canvas.Left="312" Canvas.Top="17" Width="67" RenderTransformOrigin="0.72,0.149" Source="img/main.png"/>
+        <Label Content="POS System" Height="60" Canvas.Left="26" Canvas.Top="25" Width="218" FontSize="22" Foreground="#DDFBFBFB" FontWeight="Bold"/>
+
+    </Canvas>
+</Window>

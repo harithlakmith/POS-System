@@ -1,0 +1,31 @@
+﻿<Window x:Class="POS_System.Stores"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POS_System"
+        mc:Ignorable="d"
+        Title="Stores" Height="656" Width="1208">
+    <Canvas Margin="0,0,2,0" Height="609" VerticalAlignment="Top">
+        <Canvas Height="124" Canvas.Left="10" Canvas.Top="10" Width="1188">
+            <Rectangle Fill="#FF7E99F5" Height="114" Canvas.Left="10" Stroke="Black" Canvas.Top="10" Width="1168"/>
+            <Image Height="148" Canvas.Left="1014" Canvas.Top="27" Width="164" RenderTransformOrigin="0.72,0.149" Source="img/main.png"/>
+            <Label Content="POS System" Height="64" Canvas.Left="62" Canvas.Top="29" Width="332" FontSize="36" Foreground="#DDFBFBFB" FontWeight="Bold"/>
+        </Canvas>
+        <Canvas Height="468" Canvas.Top="141" Width="1012" Canvas.Left="186">
+            <Image Height="236" Canvas.Left="30" Canvas.Top="98" Width="166" Source="img/Additem.png"/>
+            <Button Content="Add Item" Canvas.Left="30" Canvas.Top="339" Width="166" Height="78" FontSize="20" Click="Button_Click"/>
+            <Image Height="236" Canvas.Left="206" Canvas.Top="98" Width="166" Source="img/updt.png"/>
+            <Button Content="Update Item" Canvas.Left="206" Canvas.Top="339" Width="166" Height="78" FontSize="20" Click="Button_Click_1"/>
+            <Image Height="236" Canvas.Left="384" Canvas.Top="98" Width="166" Source="img/delitem.png"/>
+            <Button Content="Delete Item" Canvas.Left="384" Canvas.Top="339" Width="166" Height="78" FontSize="20" Click="Button_Click_2"/>
+            <Image Height="236" Canvas.Left="562" Canvas.Top="98" Width="166" Source="img/find.jpg"/>
+            <Button Content="Find Item" Canvas.Left="562" Canvas.Top="339" Width="166" Height="78" FontSize="20" Click="Button_Click_3"/>
+            <Image Height="236" Canvas.Left="742" Canvas.Top="98" Width="166"/>
+            <Label Content="Stores" Height="61" Canvas.Left="60" Canvas.Top="32" Width="350" FontSize="36" FontWeight="Bold"/>
+        </Canvas>
+
+
+
+    </Canvas>
+</Window>

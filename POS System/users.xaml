@@ -1,0 +1,27 @@
+﻿<Window x:Class="POS_System.users"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POS_System"
+        mc:Ignorable="d"
+        Title="users" Height="450" Width="800">
+    <Canvas Margin="10,10,10,10">
+        <Canvas Height="306" Canvas.Left="10" Canvas.Top="83" Width="752">
+            <Image Height="171" Canvas.Left="43" Canvas.Top="37" Width="130" Source="img/cash.jpg"/>
+            <Image Height="171" Canvas.Left="178" Canvas.Top="37" Width="130" Source="img/mang.png"/>
+            <Image Height="171" Canvas.Left="308" Canvas.Top="37" Width="130" Source="img/cashr.png"/>
+            <Image Height="171" Canvas.Left="443" Canvas.Top="37" Width="130" Source="img/cashr.png"/>
+            <Image Height="171" Canvas.Left="578" Canvas.Top="37" Width="130"/>
+            <Button Content="Add Cashier" Height="63" Canvas.Left="43" Canvas.Top="208" Width="130" Click="Button_Click"/>
+            <Button Content="Add user" Height="63" Canvas.Left="178" Canvas.Top="208" Width="130" Click="Button_Click_1"/>
+            <Button Content="Remove Cashier" Height="63" Canvas.Left="313" Canvas.Top="208" Width="130" Click="Button_Click_2"/>
+            <Button Content="Remove User" Height="63" Canvas.Left="448" Canvas.Top="208" Width="130" Click="Button_Click_3"/>
+        </Canvas>
+        <Rectangle Fill="#FF7E99F5" Height="73" Canvas.Left="10" Stroke="Black" Canvas.Top="10" Width="757"/>
+        <Image Height="88" Canvas.Left="661" Canvas.Top="20" Width="106" RenderTransformOrigin="0.72,0.149" Source="img/main.png"/>
+        <Label Content="POS System" Height="57" Canvas.Left="44" Canvas.Top="21" Width="311" FontSize="36" Foreground="#DDFBFBFB" FontWeight="Bold"/>
+
+
+    </Canvas>
+</Window>

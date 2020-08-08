@@ -1,0 +1,32 @@
+﻿<Window x:Class="POS_System.UpdateItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POS_System"
+        mc:Ignorable="d"
+        Title="UpdateItem" Height="499.592" Width="800">
+    <Canvas>
+        <Canvas.Background>
+            <ImageBrush ImageSource="./img/bg.jpg" Opacity="0.1" />
+        </Canvas.Background>
+        <Canvas Height="304" Canvas.Left="64" Canvas.Top="140" Width="680">
+            <Label Content="Code" Height="34" Canvas.Left="10" Canvas.Top="36" Width="92" FontSize="20"/>
+            <TextBox Height="34" Canvas.Left="107" TextWrapping="Wrap" Canvas.Top="36" Width="193" FontSize="20"/>
+            <Label Content="Name" Height="34" Canvas.Left="10" Canvas.Top="96" Width="92" FontSize="20"/>
+            <TextBox Height="34" Canvas.Left="107" TextWrapping="Wrap" Canvas.Top="96" Width="193" FontSize="20"/>
+            <Label Content="Info" Height="34" Canvas.Left="10" Canvas.Top="160" Width="92" FontSize="20"/>
+            <TextBox Height="77" Canvas.Left="107" TextWrapping="Wrap" Canvas.Top="160" Width="193" FontSize="20"/>
+            <Label Content="Quantity" Height="34" Canvas.Left="380" Canvas.Top="36" Width="92" FontSize="20"/>
+            <TextBox Height="34" Canvas.Left="477" TextWrapping="Wrap" Canvas.Top="36" Width="193" FontSize="20"/>
+            <Label Content="Price" Height="34" Canvas.Left="380" Canvas.Top="96" Width="92" FontSize="20"/>
+            <TextBox Height="34" Canvas.Left="477" TextWrapping="Wrap" Canvas.Top="96" Width="193" FontSize="20"/>
+            <Button Content="Update" Height="57" Canvas.Left="452" Canvas.Top="203" Width="164" FontSize="22" Click="Button_Click"/>
+        </Canvas>
+        <Label Content="Update Item" Height="43" Canvas.Left="183" Canvas.Top="117" Width="231" FontSize="22" FontWeight="Bold"/>
+        <Rectangle Fill="#FF7E99F5" Height="86" Canvas.Left="10" Stroke="Black" Canvas.Top="10" Width="771"/>
+        <Image Height="112" Canvas.Left="673" Canvas.Top="23" Width="108" RenderTransformOrigin="0.72,0.149" Source="img/main.png"/>
+        <Label Content="POS System" Height="49" Canvas.Left="44" Canvas.Top="24" Width="220" FontSize="36" Foreground="#DDFBFBFB" FontWeight="Bold"/>
+
+    </Canvas>
+</Window>
