@@ -11,7 +11,7 @@ namespace POS_System.ViewModal
     {
         public SubItem(string name, UserControl screen = null)
         {
-            Name = name;
+            Name = name; //submit this item
             Screen = screen;
         }
         public string Name { get; private set; }
